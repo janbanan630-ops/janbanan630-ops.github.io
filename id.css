@@ -345,3 +345,23 @@ p{
     margin-right: auto;
     text-align: center;
 }
+
+.flag_gif_box{
+    position: absolute;
+    top: 60%;
+    left: 7.5%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.flag_gif{
+    width: 35px;
+}
+
+.flag_gif_text{
+    font-size: 12px;
+    line-height: 14px;
+    color: black;
+}
+
