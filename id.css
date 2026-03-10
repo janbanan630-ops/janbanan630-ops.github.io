@@ -227,7 +227,7 @@ p{
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 100%;
-    style=”display:block";
+    display: block;
 }
 
 .bottom_update{
@@ -346,13 +346,16 @@ p{
     position: absolute;
     top: 63.45%;
     left: 7.5%;
+    display: block;
 }
 
 .godlo_gif{
     position: absolute;
     top: 77.45%;
     left: 7.5%;
+    display: block;
 }
+
 
 
 
