@@ -221,7 +221,7 @@ p{
     left: 7.5%;
     width: 35%;
     border-radius: 15px;
-    height: 29%;
+    height: 30%;
     background-color: white;
     background-position: center;
     background-size: 100%;
@@ -343,15 +343,16 @@ p{
 
 .flag_video{
     position: absolute;
-    top: 54.45%;
+    top: 49.45%;
     left: 7.5%;
 }
 
 .godlo_gif{
     position: absolute;
-    top: 67.45%;
+    top: 57.45%;
     left: 7.5%;
 }
+
 
 
 
