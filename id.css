@@ -44,7 +44,7 @@ body{
 
 .id_data_grid{
     position: absolute;
-    top: 18px;
+    top: 30px;
     left: 50%;
     display: block;
     grid-template-columns: 100%;
@@ -352,6 +352,7 @@ p{
     top: 67.45%;
     left: 7.5%;
 }
+
 
 
 
