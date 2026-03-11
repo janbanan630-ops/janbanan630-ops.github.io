@@ -4,8 +4,6 @@ var params = new URLSearchParams(window.location.search);
 var firstname = params.get("firstname");
 var surname = params.get("surname");
 var image = params.get("image");
-var pesel = params.get("pesel");
-var birthdate = params.get("birthdate");
 
 
 function hideAddressBar() {
@@ -44,8 +42,6 @@ document.head.prepend(manifestElem);
 document.querySelector(".surname").innerHTML = surname.toUpperCase();
 document.querySelector(".firstname").innerHTML = firstname.toUpperCase();
 document.querySelector(".id_own_image").style.backgroundImage = "url('" + image + "')";
-document.querySelector(".birthdate").innerHTML = birthdate.toUpperCase();
-document.querySelector(".pesel").innerHTML = pesel.toUpperCase();
 
 var options = { year: 'numeric', month: 'numeric', day: 'numeric' };
 var date = new Date();
@@ -67,6 +63,7 @@ setClock();
 function delay(time) {
 return new Promise(resolve => setTimeout(resolve, time));
 }
+
 
 
 
